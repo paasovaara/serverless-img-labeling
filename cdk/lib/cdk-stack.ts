@@ -11,6 +11,7 @@ export class PersistentStorageCdkStack extends cdk.Stack {
     const s3Bucket = new s3.Bucket(this, 'img-source', {
       objectOwnership: s3.ObjectOwnership.BUCKET_OWNER_ENFORCED,
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
       encryption: s3.BucketEncryption.UNENCRYPTED, // TODO Change once in production
     });
 
