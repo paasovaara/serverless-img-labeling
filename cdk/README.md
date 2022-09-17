@@ -1,6 +1,6 @@
-# Welcome to your CDK TypeScript project
+# CDK Stack 
 
-This is a blank project for CDK development with TypeScript.
+This is the CDK stack for infrastructure, based on the the generated CDK template. 
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
