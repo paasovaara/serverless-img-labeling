@@ -14,6 +14,5 @@ export class PersistentStorageCdkStack extends cdk.Stack {
       encryption: s3.BucketEncryption.UNENCRYPTED, // TODO Change once in production
     });
 
-    s3Bucket.grantRead(new iam.AccountRootPrincipal());
   }
 }

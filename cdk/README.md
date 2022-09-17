@@ -4,6 +4,13 @@ This is the CDK stack for infrastructure, based on the the generated CDK templat
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
+## Setup 
+Bootstrap the account when doing a fresh install to new account / region
+
+```
+cdk bootstrap aws://ACCOUNT-NUMBER-1/REGION-1 
+```
+
 ## Useful commands
 
 * `npm run build`   compile typescript to js
