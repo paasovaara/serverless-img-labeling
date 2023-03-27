@@ -8,16 +8,13 @@ typescript
 cdk v2
 
 ```
+# cdk v2
 npm install -g aws-cdk typescript
-```
 
-aws-cli
-```
+# aws-cli
 brew install awscli
-```
 
-python3, pip & pipenv
-```
+#python3, pip & pipenv
 pip install --user pipenv
 ```
 
