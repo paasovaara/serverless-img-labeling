@@ -19,3 +19,4 @@ cdk bootstrap aws://ACCOUNT-NUMBER-1/REGION-1
 * `cdk deploy`      deploy this stack to your default AWS account/region
 * `cdk diff`        compare deployed stack with current state
 * `cdk synth`       emits the synthesized CloudFormation template
+* `cdk watch`       deploy changes this stack & lambda code -- notice, use only while developing! 
